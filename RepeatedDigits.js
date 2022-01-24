@@ -1,3 +1,4 @@
+// Create an array
 let reptd_digits = [];
 
 for(let i=1;i<=100;i++){
