@@ -19,4 +19,14 @@ function repeatDieRoll(){
     }
 }
 repeatDieRoll();
-
+/**
+ * (c) Store the result in a dictionary
+ */
+function storeDieRollResultDict(){
+    let dieRollMap = new Map();
+    for(let i=0;i<10;i++){
+        dieRollMap.set(i,rollDie());
+    }
+    return dieRollMap;
+}
+console.log(storeDieRollResultDict());
